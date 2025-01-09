@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #0d0630;
+    --secondary-color: #384e77;
+    --accent1-color: #8bbeb2;
+    --accent2-color: #e6f9af;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+
+body {
+    margin: auto;
+    max-width: 1400px;
+    min-height: 100%;
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+header h1 {
+    color: var(--accent2-color);
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 25px; */
+}
+
+nav a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: var(--accent1-color);
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.main-content-left p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content-right ul li {
+    text-align: center;
+    margin: 20px;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.Japan {
+    margin-top: 15px;
+    margin: auto;
+}
+
+.Japan div {
+    display: flex;
+    padding-top: 0px;
+
+}
+
+.Japan div p {
+    padding: 10px 20px 20px 20px;
+}
+
+.Japan h3 {
+    text-align: center;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+#profile {
+    width: 200px;
+    height: 200px;
+}
+
+#flag {
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    border: 1px solid black;
+
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+footer p {
+    margin: auto;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr; /* Stack columns on top of each other */
+    }
+}

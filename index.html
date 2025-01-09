@@ -8,43 +8,67 @@
     <meta name="description"
         content="This is the landing page for my course project in WDD 131 - Dynamic Web Fundamentals. By Jake Preciado.">
     <meta name="author" content="Jake Preciado">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
         <h1>WDD 131 - Dynamic Web Fundamentals - Jake Preciado</h1>
         <nav>
-            <ul>
-                <li><a href="www.linkedin.com/in/jake-preciado-b2174a2a9">LinkedIn</a></li>
-                <li><a href="https://byupw.instructure.com/.">Canvas</a></li>
-                <li><a
-                        href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng#p8">Scripture</a>
-                </li>
-                <li><a>Final Project</a></li>
-            </ul>
+            <a href="https://www.linkedin.com/feed/">LinkedIn</a>
+            <a href="https://byupw.instructure.com/.">Canvas</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng&id=p8#p8">Scripture</a>
+            <a>Final Project</a>
         </nav>
     </header>
     <main>
-        <section class="card">
-            <h2>About Me</h2>
-            <p>
-                I'm a photographer, musician, gamer, and an enthusiast of all things creative. Whether I'm capturing
-                moments behind the lens, jamming on my guitar, or getting lost in worlds and stories through gaming, my
-                love for creativity is endless. It's more than just hobbies; it's who I am!
-            </p>
-            <img>
-        </section>
-        <section class="card">
-            <h2>Resources</h2>
-            <ul>
-                <li><a>Resource 1</a></li>
-                <li><a>Resource 2</a></li>
-                <li><a>Resource 3</a></li>
-            </ul>
-        </section>
+        <div class="main-content">
+            <section class="card main-content-left">
+                <h2>About Me</h2>
+                <div class="about-me">
+                    <div>
+                        <p>
+                            Hello! My name is Jake Preciado. I am a student at Brigham Young University - Idaho, and am
+                            pursuing a bachelors in software engineering. I love the outdoors, photography and music. I
+                            am excited to learn and increase my skills!
+                        </p>
+                        <div class="Japan">
+                            <h3>Tokyo, Japan</h3>
+                            <div>
+                                <img id="flag" src="images/flag.jpg" alt="Japanese National Flag">
+                                <p>
+                                    Tokyo is the capital city of Japan and one of the biggest cities in the world. It
+                                    mixes modern buildings, technology, and busy shopping areas with old temples and
+                                    parks. The city is famous for being a business and entertainment hub, with lots of
+                                    things to see and do. Tokyo has a great public transportation system, making it easy
+                                    to get around. There are also quiet spots like parks and gardens to relax in.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img id="profile" src="images/profile.jpg" alt="Profile picture of me.">
+                </div>
+            </section>
+            <section class="card main-content-right">
+                <h2>Resources</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com/">Learn to Code: W3 Schools</a></li>
+                    <li><a href="https://resourcecenter.byupathway.edu/">BYU Pathway Worldwide Resource Center</a></li>
+                    <li><a href="https://flexboxfroggy.com/">Flexbox Froggy - Learn CSS Flexbox</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Tokyo">Learn all about Tokyo</a></li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>&copy;<span id="currentyear"></span> | Jake Preciado | Utah, USA</p>
+        <p>&copy;<span id="currentYear"></span> | Jake Preciado | Utah, USA</p>
         <p id="lastModified"></p>
     </footer>
 </body>
