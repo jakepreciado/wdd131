@@ -1,0 +1,68 @@
+* {
+    font-family: 'Alkatra', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    text-align: left;
+}
+
+td:last-child {
+    text-align: left;
+}
+
+.data {
+    padding: 20px;
+    text-align: right;
+    border-bottom: 1px solid black
+}
+
+.weather {
+    text-align: right;
+    padding: 20px;
+}
+
+.weather img {
+    max-width: 125px;
+    margin: auto;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
