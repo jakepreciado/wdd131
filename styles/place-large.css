@@ -42,8 +42,8 @@
         width: 300px;
         position: relative;
         left: -50px;
-        background-color: rgb(150, 0, 0);
-        color: white;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
         text-align: left;
         padding: 5px 5px 5px 25px;
     }
