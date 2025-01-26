@@ -4,6 +4,10 @@
         width: 100%;
     }
 
+    picture {
+        width: 100%;
+    }
+
     .weather img {
         display: none;
     }
@@ -38,7 +42,7 @@
         width: 300px;
         position: relative;
         left: -50px;
-        background-color: red;
+        background-color: rgb(150, 0, 0);
         color: white;
         text-align: left;
         padding: 5px 5px 5px 25px;
