@@ -1,12 +1,12 @@
-* {
+:root {
     --primary-color: rgb(150, 0, 0);
     --secondary-color: white;
-}
-
-body {
     font-family: 'Alkatra', sans-serif;
     margin: 0px;
     padding: 0px;
+}
+
+body {
     max-width: 1400px;
     margin: auto;
     min-height: 100vh;
