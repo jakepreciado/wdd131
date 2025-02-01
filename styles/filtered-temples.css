@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 52, 25);
+
+}
+
+.header-title {
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: rgb(25, 52, 25);
+}
+
+.header-title h1 {
+    color: white;
+    padding: 40px 20px 20px 50px;
+}
+
+nav {
+    display: flex;
+    margin: 37.5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(110, 110, 110);
+    transform: scale(1.05)
+}
+
+
+figure img {
+    width: 300px;
+    height: auto;
+}
+
+main h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.picture-grid {
+    margin: auto;
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+figure {
+    text-align: center;
+    padding: 20px;
+}
+
+figcaption {
+    font-size: 18px;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(25, 52, 25);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger-menu .bar {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+}

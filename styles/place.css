@@ -63,7 +63,7 @@ td:last-child {
 }
 
 footer {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
     font-size: 18px;
     padding: 20px;
