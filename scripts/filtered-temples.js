@@ -8,8 +8,13 @@ document.getElementById('hamburger-menu').addEventListener('click', function () 
     document.getElementById('navbar').classList.toggle('show');
 });
 
-
 const templeCards = document.querySelector('#temples');
+const home = document.querySelector('#home');
+const oldTemples = document.querySelector('#old');
+const newTemples = document.querySelector('#new');
+const largeTemples = document.querySelector('#large');
+const smallTemples = document.querySelector('#small');
+
 
 const temples = [
     {
@@ -94,9 +99,9 @@ const temples = [
     },
 ];
 
-
-function DisplayTemples() {
-    temples.forEach((temple) => {
+function DisplayTemples(filtered) {
+    templeCards.innerHTML = '';
+    filtered.forEach((temple) => {
         let card = document.createElement('figure');
         let image = document.createElement('img');
         let cardText = document.createElement('figcaption');
@@ -124,7 +129,40 @@ function DisplayTemples() {
         cardText.appendChild(area);
 
         templeCards.appendChild(card);
+
+        console.log(temple.dedicated)
     })
 }
 
-DisplayTemples();
+oldTemples.addEventListener('click', () => {
+    let oldTemple = temples.filter(temple => {
+        let year = temple.dedicated.split(',')[0];
+         return year < 1900;
+    });
+    DisplayTemples(oldTemple);
+})
+
+newTemples.addEventListener('click', () => {
+    let newTemple = temples.filter(temple => {
+        let year = temple.dedicated.split(',')[0];
+         return year > 2000;
+    });
+    DisplayTemples(newTemple);
+})
+
+largeTemples.addEventListener('click', () => {
+    let largeTemple = temples.filter(temple => temple.area > 90000);
+    DisplayTemples(largeTemple);
+})
+
+smallTemples.addEventListener('click', () => {
+    temples
+    let smallTemple = temples.filter(temple => temple.area < 10000);
+    DisplayTemples(smallTemple);
+})
+
+home.addEventListener('click', () => {
+    DisplayTemples(temples);
+})
+
+DisplayTemples(temples);
