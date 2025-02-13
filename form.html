@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jake Preciado Product Review Form">
+    <meta name="author" content="Jake Preciado">
+    <title>Product Review | WDD131 Jake Preciado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form id="reviewForm" method="get" action="review.html" class="product">
+            <fieldset>
+                <div class="product-name">
+                    <label for="productName">Product Name</label>
+                    <select name="productName" id="productName" required>
+                        <option value="newOption" disabled selected>Choose a Product...</option>
+                    </select>
+                </div>
+
+                <div class="overall-rating">
+                    <label>Overall Rating</label>
+                    <div class="rating">
+                        <div>
+                            <input type="radio" name="rating" id="oneStar" required>
+                            <label for="oneStar">☆</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="twoStar" required>
+                            <label for="twoStar">☆☆</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="threeStar" required>
+                            <label for="threeStar">☆☆☆</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="fourStar" required>
+                            <label for="fourStar">☆☆☆☆</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="rating" id="fiveStar" required>
+                            <label for="fiveStar">☆☆☆☆☆</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="date-install">
+                    <label for="installDate">Date of Installation</label>
+                    <input type="date" name="installation" id="installDate">
+                </div>
+
+                <div class="feature-list">
+                    <label>Which features did you find useful in the product?</label>
+                    <span class="apply">(Check all that apply)</span>
+                    <div>
+                        <input type="checkbox" name="durability" id="strength">
+                        <label for="strength">Durability</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="easyuse" id="ease">
+                        <label for="ease">Ease of Use</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="performance" id="perform">
+                        <label for="perform">Performance</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="design" id="design">
+                        <label for="design">Design</label>
+                    </div>
+                </div>
+
+                <div class="written-review">
+                    <label for="writtenReview">Written Review <span class="optional">(Optional)</span></label>
+                    <textarea name="review" id="writtenReview" rows="6"></textarea>
+                </div>
+
+                <div class="your-name">
+                    <label for="name">Your Name <span class="optional">(Optional)</span></label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+                <div class="submit-btn">
+                    <input id="submit" type="submit" value="Post Review">
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> | Jake Preciado | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

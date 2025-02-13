@@ -1,0 +1,79 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+label,
+.apply {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    background-color: #001d3d;
+    color: #ffc300;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    margin: auto;
+    max-width: 600px;
+    background-color: #ffd60a;
+}
+
+input {
+    padding: 10px
+}
+
+.product-name,
+.rating div,
+.date-install,
+.feature-list,
+.written-review,
+.your-name {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset div {
+    margin: 10px;
+}
+
+.product-name select {
+    padding: 5px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating div {
+    margin: 0;
+}
+
+.rating label {
+    margin: auto;
+}
+
+.submit-btn input {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #001d3d;
+    color: #ffd60a;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+main h2,
+main p {
+    font-weight: bold;
+    text-align: center;
+}
