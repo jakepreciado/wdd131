@@ -1,0 +1,64 @@
+{
+    "guitars": [
+        {
+            "name": "TE-1000",
+            "color": "Silver Blast",
+            "strings": "6",
+            "image": "images/product1.webp"
+        },
+        {
+            "name": "CS-II",
+            "color": "Vintage Natural",
+            "strings": "6",
+            "image": "images/product2.webp"
+        },
+        {
+            "name": "Phoenix-201",
+            "color": "Black",
+            "strings": "6",
+            "image": "images/product3.webp"
+        },
+        {
+            "name": "M-1007 Baritone Evertune",
+            "color": "Granite Sparkle",
+            "strings": "7",
+            "image": "images/product4.webp"
+        },
+        {
+            "name": "M-201HT Baritone",
+            "color": "Black",
+            "strings": "6",
+            "image": "images/product5.webp"
+        },
+        {
+            "name": "MSV-1",
+            "color": "Black",
+            "strings": "6",
+            "image": "images/product6.webp"
+        },
+        {
+            "name": "M-1000 Maple",
+            "color": "Black",
+            "strings": "6",
+            "image": "images/product7.webp"
+        },
+        {
+            "name": "M-1000NT BB",
+            "color": "Black Satin",
+            "strings": "6",
+            "image": "images/product8.webp"
+        },
+        {
+            "name": "JM-I",
+            "color": "Deep Blood Moon",
+            "strings": "6",
+            "image": "images/product9.webp"
+        },
+        {
+            "name": "AS-1FR",
+            "color": "Lime Burst",
+            "strings": "6",
+            "image": "images/product10.webp"
+        }
+    ]
+}

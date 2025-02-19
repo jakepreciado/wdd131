@@ -1,0 +1,54 @@
+main p {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+table {
+    width: 600px;
+    color: white;
+    font-size: 20px;
+}
+
+.submissions h1,
+.submissions p {
+    text-align: center;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+
+.submissions table {
+    margin: auto;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+.button-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.home-button {
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px auto;
+    font-size: 18px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: var(--accent2-color);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #374F67;
+}

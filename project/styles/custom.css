@@ -1,0 +1,253 @@
+.customs-page-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.page-column {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.left {
+    border-right: solid 1px white;
+}
+
+.custom-models {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.custom-models img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.custom-column {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    background-color: var(--accent2-color);
+    color: white;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 25px;
+
+}
+
+main h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main h2 {
+    color: var(--primary-color);
+}
+
+label,
+.apply {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: auto;
+    max-width: 800px;
+}
+
+input {
+    padding: 10px
+}
+
+.rating div,
+.date-of-service,
+.comments,
+.contact {
+    margin: 10px;
+}
+
+fieldset div {
+    margin: 10px;
+}
+
+.product-name select {
+    padding: 5px;
+}
+
+.services {
+    justify-content: space-between;
+}
+
+.services div {
+    margin: 10px;
+}
+
+.services label {
+    margin: auto;
+}
+
+.submit-btn input {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    width: 100%;
+}
+
+.comments textarea {
+    margin: 10px;
+    width: 90%;
+}
+
+.form-section {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1265px) {
+    .left {
+        border-right: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .customs-page-grid {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .custom-models {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        gap: 10;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        border-bottom: solid 1px white;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .header {
+        display: flex;
+
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    nav {
+        background-color: var(--accent1-color);
+        width: 100%;
+        text-align: center;
+    }
+
+    #navbar {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        margin: auto;
+    }
+
+    #navbar.show {
+        display: flex;
+    }
+
+    nav a {
+        font-size: 18px;
+        color: black;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .form-section {
+        padding: 20px;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    .modal {
+        width: 350px;
+    }
+
+    .footer {
+        width: fit-content;
+    }
+
+    .card {
+        width: 300px;
+        margin: auto;
+    }
+    
+    .modal {
+        width: 350px;
+    }
+
+    .footer {
+        width: fit-content;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .custom-models {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-section {
+        padding: 0;
+    }
+    .overlay {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+
+
+}

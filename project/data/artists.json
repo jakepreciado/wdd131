@@ -1,0 +1,64 @@
+{
+    "artists": [
+        {
+            "name": "Tom Searle",
+            "band": "Architects",
+            "bio": "Tom Searle was the lead guitarist, primary songwriter, and founding member of the British metalcore band Architects. Known for his intricate riffs, dynamic compositions, and emotionally charged lyrics, he played a crucial role in shaping the band's sound. His songwriting often explored deep themes, including personal struggles and social issues. His influence continues to resonate through the band's music and impact on modern metal.",
+            "image": "images/tom-searle.webp"
+        },
+        {
+            "name": "Josh Middleton",
+            "band": "Sylosis",
+            "bio": "Josh Middleton is the guitarist and vocalist for the British metal band Sylosis. Sylosis has gained a reputation for its technical proficiency and dynamic songwriting. Middleton’s intricate guitar work and powerful vocals have been central to the band's sound, contributing to the release of several critically acclaimed albums. He has helped shape the band's distinctive blend of aggression and melody, establishing them in the modern metal scene.",
+            "image": "images/josh-middleton.webp"
+        },
+        {
+            "name": "Jeff Ling",
+            "band": "Parkway Drive",
+            "bio": "Jeff Ling is the lead guitarist of the Australian metalcore band Parkway Drive, known for his skilled guitar work and innovative riffs. Since the band’s formation in 2003, Ling has been a driving force behind their sound, blending aggressive metalcore with melodic influences. His contributions have helped shape Parkway Drive’s success, making them a prominent name in the global metal scene.",
+            "image": "images/jeff-ling.webp"
+        },
+        {
+            "name": "Sean Long",
+            "band": "While She Sleeps",
+            "bio": "Sean Long is the lead guitarist for the British metalcore band While She Sleeps. With his powerful riffs and emotive style, Long has played a pivotal role in crafting the band's signature sound, which blends aggressive energy with melodic undertones. Since the band's early days, Long's innovative guitar work has been integral to their success, helping While She Sleeps stand out in the metalcore scene with their unique musical approach and heartfelt lyrics.",
+            "image": "images/sean-long.webp"
+        },
+        {
+            "name": "Adam Christianson",
+            "band": "Architects",
+            "bio": "Adam Christianson is the lead guitarist of the British metalcore band Architects. Known for his intricate and aggressive guitar riffs, he has been instrumental in shaping the band's powerful sound. His playing blends technical precision with emotive melodies, adding depth to their music. With his innovative approach, Adam has contributed to the band's success and their continued influence in the metalcore scene.",
+            "image": "images/adam-christianson.webp"
+        },
+        {
+            "name": "Luke Kilpatrick",
+            "band": "Parkway Drive",
+            "bio": "Luke Kilpatrick is the rhythm guitarist of Parkway Drive. Known for his fast, aggressive playing and technical skill, Kilpatrick's guitar work has been crucial in defining the band's sound. His intricate solos and heavy riffs contribute to Parkway Drive's blend of melodic metalcore and hardcore. As a founding member, Luke’s influence continues to resonate through the band's music and their impact on the global metal scene.",
+            "image": "images/luke-kilpatrick.webp"
+        },
+        {
+            "name": "Jesse Doreen",
+            "band": "Counterparts",
+            "bio": "Jesse Doreen is the lead guitarist of Counterparts. Known for his fast, precise riffs and tight rhythms, Doreen's guitar work plays a key role in the band's intense sound. His style blends technicality with emotional depth, contributing to Counterparts' signature blend of melodic and aggressive metalcore. As a vital member of the band, Jesse's influence continues to shape their music and their position within the metalcore genre.",
+            "image": "images/jesse-doreen.webp"
+        },
+        {
+            "name": "Josh Smith",
+            "band": "Northlane",
+            "bio": "Josh Smith is the lead guitarist for the band Northlane. He's known for his seamless combination of crushing riffs and atmospheric, melodic layers, often pushing the boundaries of metalcore. Smith has contributed to the band’s sound, infusing their music with a progressive, experimental edge. As a driving force behind Northlane’s growth, Josh continues to shape their musical identity and influence the modern metal scene.",
+            "image": "images/josh-smith.webp"
+        },
+        {
+            "name": "Lee Malia",
+            "band": "Bring Me The Horizon",
+            "bio": "Lee Malia plays for British metalcore band Bring Me the Horizon. Known for his distinctive blend of melodic and heavy guitar work, Malia has been pivotal in shaping the band's evolving sound. His ability to merge intricate riffs with atmospheric elements has helped Bring Me the Horizon stand out within the metalcore scene. Lee's innovative approach to songwriting and guitar playing has had a lasting impact on the band's success.",
+            "image": "images/lee-malia.webp"
+        },
+        {
+            "name": "JB Brubaker",
+            "band": "August Burns Red",
+            "bio": "JB Brubaker is the lead guitarist of August Burns Red. Brubaker's guitar work blends complex, fast-paced riffs with melodic elements. His ability to incorporate intricate, yet heavy, playing styles has become a hallmark of the band's sound. JB has played a significant role in shaping August Burns Red's aggressive, yet melodic, style, earning them a respected place in the metalcore genre and influencing many up-and-coming bands.",
+            "image": "images/jb-brubaker.webp"
+        }
+    ]
+}

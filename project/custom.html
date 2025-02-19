@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JMP Guitars - Custom Guitars, Accessories, and Services">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/custom.css">
+    <script src="scripts/custom.js" defer></script>
+    <title>JMP Guitars</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>JMP Guitars</h1>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="artists.html">Artists</a>
+            <a href="custom.html">Custom Shop & Services</a>
+        </nav>
+    </header>
+
+    <h1 class="section-header">Custom Shop & Services</h1>
+
+    <main class="customs-page-grid">
+        <section class="page-column left">
+            <h3>Have your dream guitar in mind? Our custom shop can bring your vision to life. Check out some of our
+                recent custom models.</h3>
+            <div class="custom-models">
+                <div class="custom-column">
+                    <img src="images/custom1.webp" alt="Custom Shop Guitar">
+                    <img src="images/custom2.webp" alt="Custom Shop Guitar">
+                    <img src="images/custom3.webp" alt="Custom Shop Guitar">
+                </div>
+                <div class="custom-column">
+                    <img src="images/custom4.webp" alt="Custom Shop Guitar">
+                    <img src="images/custom5.webp" alt="Custom Shop Guitar">
+                    <img src="images/custom6.webp" alt="Custom Shop Guitar">
+                </div>
+            </div>
+            <h3>Pricing and lead times may vary. Contact our custom shop at (123) 456-7890 or send us an email over at
+                customshop@jmpguitars.com!</h3>
+        </section>
+
+        <section class="page-column">
+            <h3>Need help getting your guitar in order? Fill out our service request form below and we will schedule any
+                repairs or service as soon as possible.</h3>
+            <form id="serviceForm" method="get" onsubmit="return handleFormSubmission(event)">
+                <fieldset>
+
+                    <div class="comments form-section">
+                        <div class="services ">
+                            <h2>Services</h2>
+                            <p>Choose from our offered services. (select all that apply)</p>
+                            <div class="services">
+                                <div>
+                                    <input type="checkbox" name="service[]" id="baseSetup">
+                                    <label for="baseSetup">Base Setup</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="service[]" id="fullSetup">
+                                    <label for="fullSetup">Full Setup</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="service[]" id="electronics">
+                                    <label for="electronics">Electronics</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="service[]" id="repairs">
+                                    <label for="repairs">Structural & Damage Repair</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="service[]" id="reFret">
+                                    <label for="reFret">Guitar Re-Fret</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="date-of-service form-section">
+                            <h2>Desired Service Date</h2>
+                            <input type="date" name="serviceDate" id="serviceDate">
+                        </div>
+
+                        <div class="comments form-section">
+                            <h2>Comments <span class="optional">(Optional)</span></h2>
+                            <p>Leave any specific instructions or comments for our certified guitar techs.</p>
+                            <textarea name="comments" id="comments" rows="6"></textarea>
+                        </div>
+
+                        <div class="comments form-section">
+                            <div class="contact ">
+                                <h2>Contact</h2>
+                                <div>
+                                    <label for="name">Your Name</label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div>
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" name="phone" id="phone" required>
+                                </div>
+                                <div>
+                                    <label for="email">Email <span class="optional">(Optional)</span></label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                            </div>
+
+                            <div class="submit-btn">
+                                <input id="submit" type="submit" value="Submit Service Request">
+                            </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>JMP Guitars</p>
+        <p>&copy;<span id="currentYear"></span> | Jake Preciado | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

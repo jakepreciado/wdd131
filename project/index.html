@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JMP Guitars - Custom Guitars, Accessories, and Services">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+    <title>JMP Guitars</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>JMP Guitars</h1>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="artists.html">Artists</a>
+            <a href="custom.html">Custom Shop & Services</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to JMP Guitars</h1>
+            <p>Crafted for Those Who Create. Built for musicians who crave precision, power, and personality. Our
+                guitars blend timeless craftsmanship with cutting-edge innovation, delivering a playing experience like
+                no other.</p>
+            <a href="shop.html">
+                <button class="hero-btn">Explore Our Guitars</button>
+            </a>
+        </div>
+    </div>
+
+    <section class="artist-section">
+        <h2 class="section-header">Artist Spotlight</h2>
+        <div class="artist-spotlight" id="artists"></div>
+    </section>
+
+    <section id="guitar-categories">
+        <h2 class="section-header">Guitar Categories</h2>
+        <div class="category-grid">
+            <div class="category-box">
+                <a href="shop.html">
+                    <img src="images/guitars.webp" alt="Guitar lineup">
+                    <div class="overlay">
+                        <h2>Guitars</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="category-box">
+                <a href="shop.html">
+                    <img src="images/accesories.webp" alt="Guitar Accessories">
+                    <div class="overlay">
+                        <h2>Accessories</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="category-box">
+                <a href="custom.html">
+                    <img src="images/custom-shop.webp" alt="Guitar Custom Build">
+                    <div class="overlay">
+                        <h2>Custom Shop & Services</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>JMP Guitars</p>
+        <p>&copy;<span id="currentYear"></span> | Jake Preciado | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

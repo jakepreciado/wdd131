@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JMP Guitars - Custom Guitars, Accessories, and Services">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/thankyou.css">
+    <script src="scripts/main.js" defer></script>
+
+    <script src="scripts/custom.js" defer></script>
+    <title>JMP Guitars</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>JMP Guitars</h1>
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="artists.html">Artists</a>
+            <a href="custom.html">Custom Shop & Services</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-header">Thank You Reaching Out!</h1>
+        <p>We will contact you shortly with more information. Please contact us if you need further assistance with
+            your guitar.</p>
+        <div class="submissions">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td id="firstNameDisplay"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td id="phoneDisplay"></td>
+                </tr>
+                <tr>
+                    <td>Email Address:</td>
+                    <td id="emailDisplay"></td>
+                </tr>
+                <tr>
+                    <td>Date:</td>
+                    <td id="formTimestampDisplay"></td>
+                </tr>
+                <tr>
+                    <td>Services Requested</td>
+                    <td id="servicesDisplay"></td>
+                </tr>
+                <tr>
+                    <td>Comments</td>
+                    <td id="commentsDisplay"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="button-container">
+            <a href="index.html" class="home-button">Go Home</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>JMP Guitars</p>
+        <p>&copy;<span id="currentYear"></span> | Jake Preciado | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

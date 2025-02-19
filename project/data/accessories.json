@@ -1,0 +1,34 @@
+{
+    "accessories": [
+        {
+            "name": "Guitar Case",
+            "description": "Hard shell case to protect your instrument.",
+            "image": "images/accessory1.webp"
+        },
+        {
+            "name": "1/4 in. Instrument Cable",
+            "description": "High quality cable made to sound the best.",
+            "image": "images/accessory2.webp"
+        },
+        {
+            "name": "Stomp-Box Pedal Board",
+            "description": "Switch seamlessly through various effects and loops in your rig.",           
+            "image": "images/accessory3.webp"
+        },
+        {
+            "name": "Variety Pack Guitar Picks",
+            "description": "A variety of types so you can find your preferred guitar pick.",
+            "image": "images/accessory4.webp"
+        },
+        {
+            "name": "Instrument Care Kit",
+            "description": "Keep your guitar clean and fresh with this special care kit.",
+            "image": "images/accessory5.webp"
+        },
+        {
+            "name": "Guitar Strings",
+            "description": "11-54 gauge strings of the highest quality so you can sound your best.",
+            "image": "images/accessory6.webp"
+        }
+    ]
+}

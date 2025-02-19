@@ -1,0 +1,23 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.card img {
+    margin-bottom: 10px;
+}
+
+.guitars-section,
+.accessories-section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.guitars,
+.accessories {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    text-align: center;
+}
