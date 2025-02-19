@@ -32,7 +32,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 450px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -73,7 +73,7 @@
 
 .close-btn {
     margin: 10px;
-    background-color: #f44336;
+    background-color: black;
     color: white;
     padding: 10px;
     border: none;
@@ -82,6 +82,6 @@
 }
 
 .close-btn:hover {
-    background-color: #d32f2f;
+    background-color: #971818;
 }
 
